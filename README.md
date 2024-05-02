@@ -11,7 +11,7 @@ install package pygame
 
 ## Description
 
-This module simulates the game of life. Cell are reproducing and decaying. At the start an initial set of active cells is set and they grow after following three rules
+This module simulates Conway's Game of Life. Cell are reproducing, just surviving, or decaying. At the start an initial set of active cells is set and they grow after following three rules
 
 1. A live cells with fewer than 2 living neighbours dies (underpopulation)
 2. A live cell with two or three living neighbours remains alive (survive)
